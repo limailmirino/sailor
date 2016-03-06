@@ -1,3 +1,3 @@
-# eventSails
+# Sailor
 
-a [Sails](http://sailsjs.org) application
+a [Sails](http://sailsjs.org) REST application
