@@ -6,6 +6,20 @@
  */
 
 module.exports = {
+	function(req, res) {
+
+    Club.find().exec(function (err, clubList){
+
+      if (err) {
+        return res.negotiate(err);
+      }
+
+      sails.log('Extracted %d clubs from the DB.', clubsList.length);
+      return res.json(clubsList);
+
+    });
+
+  },
 
 	error: function(req, res) {
 		Club.create({name:'Liquid Bar'}).exec(function createCB(err, created){
