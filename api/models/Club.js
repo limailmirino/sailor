@@ -6,7 +6,7 @@
  */
 
 module.exports = {
-
+	tableName: 'clubs',
   attributes: {
       name:{
         type:"string"

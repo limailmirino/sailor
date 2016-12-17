@@ -6,9 +6,8 @@
  */
 
 module.exports = {
-
+	tableName: 'users',
   attributes: {
 
   }
 };
-
