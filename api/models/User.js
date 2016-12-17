@@ -8,6 +8,17 @@
 module.exports = {
 	tableName: 'users',
   attributes: {
-
+		username:{
+      type:"string",
+      required:true
+    },
+		name:{
+      type:"string",
+      required:false
+    },
+		surname:{
+      type:"string",
+      required:false
+    },
   }
 };

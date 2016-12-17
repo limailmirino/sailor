@@ -6,6 +6,8 @@
  */
 
 module.exports = {
+	
+	/*
 	function(req, res) {
 
     Club.find().exec(function (err, clubList){
@@ -19,6 +21,9 @@ module.exports = {
 
     });
 
+  },*/
+	hi: function (req, res) {
+    return res.send('Hi there!');
   },
 
 	error: function(req, res) {
